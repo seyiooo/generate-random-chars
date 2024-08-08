@@ -1,0 +1,25 @@
+{
+  "name": "generate-random-chars",
+  "version": "1.0.0",
+  "description": "Generate some random strings with ease.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prepublishOnly": "npm run clean && npm run build"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "random",
+    "string",
+    "generator"
+  ],
+  "author": "sey.ioo",
+  "license": "MIT"
+}
