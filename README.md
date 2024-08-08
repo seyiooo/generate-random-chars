@@ -48,10 +48,11 @@ const { CharSet, generateString } = require('generate-random-chars');
 
 const result = generateString(
     16,
-    CharSet.UpperCase | CharSet.Numerical
+    CharSet.UpperCase | CharSet.Numerical,
+    '@#' // optional
 );
 
-console.log(result); // -> "D04WRGK2PX1IYK5D"
+console.log(result); // -> "D04W@GK2P#1IYK#D"
 ```
 
 <p align="right"><a href="#readme-top">top</a></p>

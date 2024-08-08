@@ -8,6 +8,14 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run clean && npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seyiooo/generate-random-chars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seyiooo/generate-random-chars/issues"
+  },
+  "homepage": "https://github.com/seyiooo/generate-random-chars#readme",
   "devDependencies": {
     "rimraf": "^6.0.1",
     "typescript": "^5.5.4"
