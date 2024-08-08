@@ -1,6 +1,6 @@
 {
   "name": "generate-random-chars",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate some random strings with ease.",
   "main": "dist/index.js",
   "scripts": {
